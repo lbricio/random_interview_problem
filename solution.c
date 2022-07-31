@@ -9,9 +9,9 @@
 
 #include <stdio.h>
 
-#define first_digit (i/1000)
+#define first_digit  (i/1000)
 #define second_digit ((i%1000 - i%100)/100)
-#define third_digit ((i%100 - i%10)/10)
+#define third_digit  ((i%100 - i%10)/10)
 #define fourth_digit (i%10)
 
 void print_numbers(int number)
