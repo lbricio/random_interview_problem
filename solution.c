@@ -17,7 +17,7 @@
 void print_numbers(int number)
 {
 	int i = 0;
-	while(i++ <= 9999)
+	while (i++ <= 9999)
 	{
 		if ((first_digit <= number) 
 		&& (second_digit <= number) 
