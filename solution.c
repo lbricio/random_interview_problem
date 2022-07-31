@@ -4,7 +4,7 @@
 // as seguintes regras:
 // - todos os dígitos devem ser menores que o dígito recebido;
 // - a soma dos dígitos deve ser igual a 21;
-// - os números devem ser impresso separados por vírgulas (ex: 3666,4566,4656,)
+// - os números devem ser impressos seguidos por ',' (ex: 3666,4566,4656,)
 // ----------------------------------------------------------------------------
 
 #include <stdio.h>
