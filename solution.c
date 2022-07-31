@@ -19,15 +19,13 @@ void print_numbers(int number)
 	int i = 0;
 	while(i++ <= 9999)
 	{
-		if ((first_digit <= number)
-		&& (second_digit <= number) 
-		&& (third_digit  <= number) 
-		&& (fourth_digit <= number))
-			if ((first_digit + second_digit + third_digit + fourth_digit) == 21)
-			{
-				if (first_digit == 0) printf("0"); 
-				printf("%i,",i);
-			}
+		if ((first_digit <= number) && (second_digit <= number) 
+			&& (third_digit  <= number) && (fourth_digit <= number))
+				if ((first_digit + second_digit + third_digit + fourth_digit) == 21)
+				{
+					if (first_digit == 0) printf("0"); 
+					printf("%i,",i);
+				}
 	}
 }
 
