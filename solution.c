@@ -25,7 +25,7 @@ void print_numbers(int number)
 		&& (fourth_digit <= number))
 			if ((first_digit + second_digit + third_digit + fourth_digit) == 21)
 			{
-				if(first_digit == 0) printf("0"); 
+				if (first_digit == 0) printf("0"); 
 				printf("%i,",i);
 			}
 	}
