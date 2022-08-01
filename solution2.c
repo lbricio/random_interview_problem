@@ -40,3 +40,12 @@ void print_numbers(int limit)
 			}
 	}
 }
+
+int main()
+{
+	int limit;
+	scanf("%i",&limit);
+	print_numbers(limit);
+
+	return (0);
+}
