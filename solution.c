@@ -1,10 +1,10 @@
 // ----------------------------------------------------------------------------
-// Você receberá um número inteiro que está contido entre 0 e 9.
+// Você receberá um número inteiro 'limit' que estará contido entre 0 e 9.
 // Imprima na saída padrão todos os números de até 4 dígitos que obedecem 
 // as seguintes regras:
 // - todos os dígitos devem ser menores que o dígito recebido;
 // - a soma dos dígitos deve ser igual a 21;
-// - os números devem ser impressos seguidos por ',' (ex: 3666,4566,4656,)
+// - os números devem ser impressos seguidos por (ex: 3666,4566,4656,)
 // ----------------------------------------------------------------------------
 
 #include <stdio.h>
