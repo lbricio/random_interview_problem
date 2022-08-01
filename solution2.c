@@ -33,11 +33,11 @@ void print_numbers(int limit)
 	while (num++ <= 9999)
 	{
 		if (all_digits_are_below_number(num, limit)
-			&& sum_of_all_digits(num) == 21)
-			{
-				if (first_digit == 0) printf("0"); 
-				printf("%i,",num);
-			}
+		&& sum_of_all_digits(num) == 21)
+		{
+			if (first_digit == 0) printf("0"); 
+			printf("%i,",num);
+		}
 	}
 }
 
