@@ -16,10 +16,8 @@
 
 int all_digits_are_below_number(int num, int limit)
 {
-	return ((first_digit <= limit) 
-		&& (second_digit <= limit) 
-		&& (third_digit  <= limit) 
-		&& (fourth_digit <= limit));
+	return ((first_digit <= limit) && (second_digit <= limit) 
+		&& (third_digit  <= limit) && (fourth_digit <= limit));
 }
 
 int sum_of_all_digits(int num)
