@@ -14,28 +14,24 @@
 #define third_digit  ((num%100 - num%10)/10)
 #define fourth_digit (num%10)
 
-int all_digits_are_below_number(int num, int limit)
-{
+int all_digits_are_below_limit(int num, int limit) {
 	return ((first_digit <= limit) && (second_digit <= limit) 
 		&& (third_digit  <= limit) && (fourth_digit <= limit));
 }
 
-int sum_of_all_digits(int num)
-{
-	return (first_digit + second_digit + third_digit + fourth_digit);
-}
+int sum_of_all_digits(int num) {
+	return (first_digit + second_digit + third_digit + fourth_digit); }
 
 void print_numbers(int limit)
 {
-	int num = 0;
-	while (num++ <= 9999)
+	for (int num=0; num<=9999; num++)
 	{
-		if (all_digits_are_below_number(num, limit)
-		&& sum_of_all_digits(num) == 21)
-		{
-			if (first_digit == 0) printf("0"); 
-			printf("%i,",num);
-		}
+		if (all_digits_are_below_limit(num, limit)
+			&& sum_of_all_digits(num) == 21)
+			{
+				if (first_digit == 0) printf("0"); 
+				printf("%i,",num);
+			}
 	}
 }
 
