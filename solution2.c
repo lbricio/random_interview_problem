@@ -14,13 +14,16 @@
 #define third_digit  ((num%100 - num%10)/10)
 #define fourth_digit (num%10)
 
-int all_digits_are_below_limit(int num, int limit) {
+int all_digits_are_below_limit(int num, int limit)
+{
 	return ((first_digit <= limit) && (second_digit <= limit) 
-		&& (third_digit  <= limit) && (fourth_digit <= limit));
+		&& (third_digit <= limit) && (fourth_digit <= limit));
 }
 
-int sum_of_all_digits(int num) {
-	return (first_digit + second_digit + third_digit + fourth_digit); }
+int sum_of_all_digits(int num)
+{
+	return (first_digit + second_digit + third_digit + fourth_digit);
+}
 
 void print_numbers(int limit)
 {
