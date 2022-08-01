@@ -27,11 +27,11 @@ void print_numbers(int limit)
 	for (int num=0; num<=9999; num++)
 	{
 		if (all_digits_are_below_limit(num, limit)
-			&& sum_of_all_digits(num) == 21)
-			{
-				if (first_digit == 0) printf("0"); 
-				printf("%i,",num);
-			}
+		&& sum_of_all_digits(num) == 21)
+		{
+			if (first_digit == 0) printf("0"); 
+			printf("%i,",num);
+		}
 	}
 }
 
